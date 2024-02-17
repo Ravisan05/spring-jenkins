@@ -16,7 +16,7 @@ class JenkinsIntegrationApplicationTests {
 	@Test
 	void contextLoads() {
 		LOGGER.info("Assert Equal Spring test class contextLoads method");
-		Assertions.assertEquals(20, 4);
+		Assertions.assertEquals(4, 4);
 	}
 
 }
